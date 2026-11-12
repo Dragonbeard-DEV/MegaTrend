@@ -119,8 +119,22 @@ If editors will not use git, replace the readers in `lib/content.ts` with a head
 
 ## Deploying to Vercel
 
-Not deployed by this project. To deploy: import the repository in Vercel (framework preset Next.js, default build command),
-set the environment variables above for Production and Preview, then add the domain and set `NEXT_PUBLIC_SITE_URL` to it.
+Deployed to the Vercel project `megatrend` (team `dragonbeard-devs-projects`) with `npx vercel --prod`:
+https://megatrend-ruby.vercel.app. The project is not yet connected to this GitHub repository, so pushes do not deploy.
+Set the environment variables above for Production and Preview.
+
+### Domain and DNS
+
+`megatrend.vn` and `www.megatrend.vn` are added to the Vercel project. Add these records at the domain's DNS provider:
+
+| Host | Type | Value | TTL |
+| --- | --- | --- | --- |
+| `@` | A | `216.198.79.1` | 3600 |
+| `@` | A | `64.29.17.1` | 3600 |
+| `www` | CNAME | `a5c3dfc2d991aa9d.vercel-dns-017.com.` | 3600 |
+
+Alternative: point the domain's nameservers to `ns1.vercel-dns.com` and `ns2.vercel-dns.com` and let Vercel manage DNS.
+Do not change existing `MX` records (email). Check with `npx vercel domains verify megatrend.vn`; Vercel issues HTTPS automatically once DNS is correct.
 
 ## Lighthouse (mobile, home page)
 
