@@ -98,10 +98,22 @@
     "heroSecondary": "See the systems",
     "heroSystemsLabel": "Jump to each ELV system",
     "capability": {
-      "consult": { "title": "Consult", "text": "Define the requirements and the right solution for the building." },
-      "design": { "title": "Design", "text": "From concept design to construction drawings and tender documents." },
-      "deploy": { "title": "Deliver", "text": "Supply, installation, configuration and acceptance." },
-      "maintain": { "title": "Maintain", "text": "Scheduled maintenance, incident response and operating support." }
+      "consult": {
+        "title": "Consult",
+        "text": "Define the requirements and the right solution for the building."
+      },
+      "design": {
+        "title": "Design",
+        "text": "From concept design to construction drawings and tender documents."
+      },
+      "deploy": {
+        "title": "Deliver",
+        "text": "Supply, installation, configuration and acceptance."
+      },
+      "maintain": {
+        "title": "Maintain",
+        "text": "Scheduled maintenance, incident response and operating support."
+      }
     },
     "listTitle": "Solutions by area",
     "listIntro": "Want to go deeper on one area? Each solution below has its own page.",
@@ -169,7 +181,9 @@
     "applyNote": "Send your CV and a short introduction to {email}.",
     "openings": "Open positions",
     "empty": "There are no open positions right now.",
-    "linkLabel": "View position"
+    "linkLabel": "View position",
+    "applyContact": "Apply via the contact page",
+    "applyContactNote": "Send your CV and a short introduction through the contact form, naming the {title} role."
   },
   "home": {
     "metaTitle": "{name} | ICT, ELV, Smart Building and Hospitality Technology",
@@ -231,10 +245,22 @@
     "prepare": {
       "title": "Helpful to include",
       "intro": "So we can propose the right scope and solution from the first conversation.",
-      "site": { "title": "The building", "text": "Type (hotel, resort, tower, home), location and size." },
-      "stage": { "title": "The stage", "text": "Concept, design, construction or already in operation." },
-      "systems": { "title": "Systems of interest", "text": "ICT, ELV or Smart Home, and the specific systems." },
-      "timeline": { "title": "Timeline", "text": "Target start of works or opening date." }
+      "site": {
+        "title": "The building",
+        "text": "Type (hotel, resort, tower, home), location and size."
+      },
+      "stage": {
+        "title": "The stage",
+        "text": "Concept, design, construction or already in operation."
+      },
+      "systems": {
+        "title": "Systems of interest",
+        "text": "ICT, ELV or Smart Home, and the specific systems."
+      },
+      "timeline": {
+        "title": "Timeline",
+        "text": "Target start of works or opening date."
+      }
     }
   },
   "form": {

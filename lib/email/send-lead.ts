@@ -30,16 +30,16 @@ function formatLead(lead: Lead): { subject: string; text: string } {
  */
 export async function sendLead(lead: Lead): Promise<{ delivered: boolean }> {
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO_EMAIL || siteConfig.contact.email;
+  const to = process.env.CONTACT_TO_EMAIL;
   const from = process.env.CONTACT_FROM_EMAIL;
   const { subject, text } = formatLead(lead);
 
-  if (!apiKey || !from) {
+  if (!apiKey || !from || !to) {
     if (process.env.NODE_ENV !== "production") {
-      console.info(`[contact] RESEND_API_KEY or CONTACT_FROM_EMAIL missing; lead logged instead of sent.\nTo: ${to}\nSubject: ${subject}\n${text}`);
+      console.info(`[contact] RESEND_API_KEY, CONTACT_FROM_EMAIL or CONTACT_TO_EMAIL missing; lead logged instead of sent.\nSubject: ${subject}\n${text}`);
       return { delivered: false };
     }
-    throw new LeadNotConfiguredError("Email delivery is not configured (RESEND_API_KEY / CONTACT_FROM_EMAIL).");
+    throw new LeadNotConfiguredError("Email delivery is not configured (RESEND_API_KEY / CONTACT_FROM_EMAIL / CONTACT_TO_EMAIL).");
   }
 
   const resend = new Resend(apiKey);

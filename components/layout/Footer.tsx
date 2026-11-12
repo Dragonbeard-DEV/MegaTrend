@@ -49,12 +49,6 @@ export async function Footer() {
             <h2 className="text-sm font-semibold tracking-wide uppercase">{t("contact")}</h2>
             <address className="mt-4 space-y-3 not-italic">
               <p>
-                <span className="sr-only">{t("email")}: </span>
-                <a href={`mailto:${contact.email}`} className={linkClass}>
-                  {contact.email}
-                </a>
-              </p>
-              <p>
                 <span className="sr-only">{t("phone")}: </span>
                 <a href={`tel:${contact.phone.replace(/[^+\d]/g, "")}`} className={linkClass}>
                   {contact.phone}

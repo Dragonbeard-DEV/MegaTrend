@@ -98,10 +98,22 @@
     "heroSecondary": "Xem các hệ thống",
     "heroSystemsLabel": "Đi tới từng hệ thống điện nhẹ",
     "capability": {
-      "consult": { "title": "Tư vấn", "text": "Xác định yêu cầu và giải pháp phù hợp với công trình." },
-      "design": { "title": "Thiết kế", "text": "Từ thiết kế ý tưởng đến bản vẽ thi công và hồ sơ mời thầu." },
-      "deploy": { "title": "Triển khai", "text": "Cung cấp, lắp đặt, cấu hình và nghiệm thu." },
-      "maintain": { "title": "Bảo trì", "text": "Bảo trì định kỳ, xử lý sự cố, hỗ trợ vận hành." }
+      "consult": {
+        "title": "Tư vấn",
+        "text": "Xác định yêu cầu và giải pháp phù hợp với công trình."
+      },
+      "design": {
+        "title": "Thiết kế",
+        "text": "Từ thiết kế ý tưởng đến bản vẽ thi công và hồ sơ mời thầu."
+      },
+      "deploy": {
+        "title": "Triển khai",
+        "text": "Cung cấp, lắp đặt, cấu hình và nghiệm thu."
+      },
+      "maintain": {
+        "title": "Bảo trì",
+        "text": "Bảo trì định kỳ, xử lý sự cố, hỗ trợ vận hành."
+      }
     },
     "listTitle": "Giải pháp theo từng lĩnh vực",
     "listIntro": "Muốn tìm hiểu sâu hơn về một mảng cụ thể? Mỗi giải pháp dưới đây đều có trang riêng.",
@@ -169,7 +181,9 @@
     "applyNote": "Gửi CV và một đoạn giới thiệu ngắn tới {email}.",
     "openings": "Vị trí đang tuyển",
     "empty": "Hiện chưa có vị trí nào đang tuyển.",
-    "linkLabel": "Xem vị trí"
+    "linkLabel": "Xem vị trí",
+    "applyContact": "Ứng tuyển qua trang liên hệ",
+    "applyContactNote": "Gửi CV và một đoạn giới thiệu ngắn qua form liên hệ, ghi rõ vị trí {title}."
   },
   "home": {
     "metaTitle": "{name} | ICT, ELV, Smart Building và công nghệ khách sạn",
@@ -231,10 +245,22 @@
     "prepare": {
       "title": "Thông tin nên gửi kèm",
       "intro": "Để chúng tôi đề xuất phạm vi và giải pháp phù hợp ngay từ lần trao đổi đầu tiên.",
-      "site": { "title": "Công trình", "text": "Loại hình (khách sạn, resort, toà nhà, nhà ở), vị trí và quy mô." },
-      "stage": { "title": "Giai đoạn", "text": "Ý tưởng, thiết kế, thi công hay đang vận hành." },
-      "systems": { "title": "Hệ thống quan tâm", "text": "ICT, ELV hoặc Smart Home, kèm các hệ thống cụ thể." },
-      "timeline": { "title": "Thời gian dự kiến", "text": "Mốc khởi công hoặc khai trương mong muốn." }
+      "site": {
+        "title": "Công trình",
+        "text": "Loại hình (khách sạn, resort, toà nhà, nhà ở), vị trí và quy mô."
+      },
+      "stage": {
+        "title": "Giai đoạn",
+        "text": "Ý tưởng, thiết kế, thi công hay đang vận hành."
+      },
+      "systems": {
+        "title": "Hệ thống quan tâm",
+        "text": "ICT, ELV hoặc Smart Home, kèm các hệ thống cụ thể."
+      },
+      "timeline": {
+        "title": "Thời gian dự kiến",
+        "text": "Mốc khởi công hoặc khai trương mong muốn."
+      }
     }
   },
   "form": {

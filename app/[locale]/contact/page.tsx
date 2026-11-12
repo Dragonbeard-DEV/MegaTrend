@@ -43,14 +43,6 @@ export default async function ContactPage({ params }: PageProps<"/[locale]/conta
             </h2>
             <dl className="mt-4 space-y-4">
               <div>
-                <dt className="text-sm text-muted">{t("email")}</dt>
-                <dd>
-                  <a href={`mailto:${contact.email}`} className={linkClass}>
-                    {contact.email}
-                  </a>
-                </dd>
-              </div>
-              <div>
                 <dt className="text-sm text-muted">{t("phone")}</dt>
                 <dd>
                   <a href={`tel:${contact.phone.replace(/[^+\d]/g, "")}`} className={linkClass}>

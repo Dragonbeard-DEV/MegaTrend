@@ -10,7 +10,6 @@ export function organizationJsonLd(description: string): Record<string, unknown>
     url: siteConfig.url,
     logo: absoluteUrl(siteConfig.logo.icon),
     description,
-    email: siteConfig.contact.email,
     telephone: siteConfig.contact.phone,
     address: { "@type": "PostalAddress", streetAddress: siteConfig.contact.address, addressCountry: "VN" },
     sameAs: siteConfig.social.map((item) => item.href),

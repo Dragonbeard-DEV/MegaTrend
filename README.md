@@ -33,7 +33,7 @@ Set them in `.env.local` locally and in the Vercel project settings for Preview 
 | Variable | Required | Purpose |
 | --- | --- | --- |
 | `RESEND_API_KEY` | Production | Resend API key. Without it (or without `CONTACT_FROM_EMAIL`) the contact API logs the lead on the server and reports success in development, and returns a clear "not configured" error (HTTP 503) in production |
-| `CONTACT_TO_EMAIL` | No | Inbox that receives leads. Default `sales@networkai.vn` |
+| `CONTACT_TO_EMAIL` | Production | Inbox that receives leads. Required: the site shows no public email |
 | `CONTACT_FROM_EMAIL` | Production | Sender, e.g. `Megatrend Website <no-reply@your-domain>`; the domain must be verified in Resend |
 | `NEXT_PUBLIC_SITE_URL` | Production | Public origin used for canonical URLs, hreflang, `sitemap.xml`, `robots.txt` and Open Graph. Default `https://www.megatrend.vn` |
 | `NEXT_PUBLIC_ANALYTICS_ENABLED` | No | `true` turns on the analytics slot (`components/layout/Analytics.tsx`), which still waits for "Accept all" in the cookie banner |

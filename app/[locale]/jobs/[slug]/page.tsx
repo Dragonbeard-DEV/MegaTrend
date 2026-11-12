@@ -9,7 +9,6 @@ import { Container } from "@/components/ui/Container";
 import { getJob, listSlugs } from "@/lib/content";
 import { resolveLocale } from "@/lib/i18n/params";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { siteConfig } from "@/site.config";
 
 export const dynamicParams = false;
 
@@ -35,8 +34,9 @@ export default async function JobPage({ params }: PageProps<"/[locale]/jobs/[slu
   const common = await getTranslations("common");
   const nav = await getTranslations("nav");
   const format = await getFormatter();
-  const email = job.applyEmail ?? siteConfig.contact.email;
-  const mailto = `mailto:${email}?subject=${encodeURIComponent(t("applySubject", { title: job.title }))}`;
+  // A job may name its own inbox; otherwise candidates apply through the contact form.
+  const email = job.applyEmail;
+  const applyHref = email ? `mailto:${email}?subject=${encodeURIComponent(t("applySubject", { title: job.title }))}` : "/contact";
 
   return (
     <>
@@ -76,10 +76,10 @@ export default async function JobPage({ params }: PageProps<"/[locale]/jobs/[slu
           <h2 id="job-apply" className="sr-only">
             {t("apply")}
           </h2>
-          <Button href={mailto} className="mt-6 w-full">
-            {t("apply")}
+          <Button href={applyHref} className="mt-6 w-full">
+            {email ? t("apply") : t("applyContact")}
           </Button>
-          <p className="mt-3 text-sm text-muted">{t("applyNote", { email })}</p>
+          <p className="mt-3 text-sm text-muted">{email ? t("applyNote", { email }) : t("applyContactNote", { title: job.title })}</p>
         </aside>
       </Container>
     </>

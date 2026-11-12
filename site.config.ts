@@ -22,9 +22,9 @@ export const siteConfig = {
     icon: "/images/brand/megatrend-logo-icon.png",
   },
   contact: {
-    email: "sales@networkai.vn",
+    // No public email: visitors use the contact form, which delivers to CONTACT_TO_EMAIL.
     phone: "+84 236 730 8188",
-    address: "Floor 3, Kim Son Building, 18 Phan Thanh Tai, Hai Chau District, Da Nang City, Vietnam",
+    address: "90/14/30 Trần Văn Ơn, Phường Tân Sơn Nhì, TP. Hồ Chí Minh",
   },
   // No company profiles confirmed yet; add { key, href } entries and the footer column appears.
   social: [] as readonly { key: "linkedin" | "facebook" | "youtube"; href: string }[],
