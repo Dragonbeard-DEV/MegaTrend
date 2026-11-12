@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "tagline": "ICT, ELV, Smart Building and Hospitality Technology",
+    "description": "Megatrend provides consultancy, design and system integration for hotels, resorts, mixed-use developments and high-end residences."
+  },
+  "nav": {
+    "home": "Home",
+    "company": "Company",
+    "about": "About us",
+    "partners": "Clients & partners",
+    "news": "News",
+    "jobs": "Jobs",
+    "segments": "Segments",
+    "allSegments": "All segments",
+    "solutions": "Solutions",
+    "services": "Services",
+    "servicesAll": "Services overview",
+    "serviceDesign": "Design consultancy",
+    "serviceDelivery": "Supply, installation and integration",
+    "serviceSupport": "Maintenance and warranty",
+    "serviceSmartHome": "Smart Home design and build",
+    "projects": "Projects",
+    "contact": "Contact",
+    "privacy": "Privacy policy",
+    "cookies": "Cookies",
+    "sitemap": "Sitemap"
+  },
+  "header": {
+    "skipToContent": "Skip to main content",
+    "homeLink": "{name} home",
+    "mainNav": "Main navigation",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "language": {
+    "label": "Language",
+    "switchTo": {
+      "en": "English",
+      "vi": "Tiếng Việt"
+    }
+  },
+  "footer": {
+    "homeLink": "{name} home",
+    "tagline": "Consultancy, design and system integration for ICT, ELV, Smart Building and Hospitality Technology.",
+    "mainLinks": "Explore",
+    "company": "Company",
+    "contact": "Contact",
+    "social": "Follow us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "opensInNewTab": "opens in a new tab",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "manageCookies": "Cookie settings"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "youtube": "YouTube"
+  },
+  "cookie": {
+    "title": "Cookies on this site",
+    "text": "We only use essential cookies unless you allow analytics. You can change this any time from the footer.",
+    "learnMore": "Cookie policy",
+    "essentialOnly": "Essential only",
+    "acceptAll": "Accept all"
+  },
+  "common": {
+    "breadcrumb": "Breadcrumb",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "viewDetails": "View details",
+    "fallbackNotice": "This page is not yet available in Vietnamese. The English version is shown.",
+    "cta": {
+      "title": "Planning a project?",
+      "text": "Tell us about your site and requirements. Our team will get back to you.",
+      "button": "Contact us"
+    }
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "title": "Our solutions",
+    "lead": "From first concept to daily operation, we cover the technology that hotels, resorts and premium residences depend on.",
+    "metaDescription": "Megatrend solutions: ICT design, ELV systems, hospitality technology, networks, data center and cloud, smart buildings, supervision, cabling and IT support.",
+    "features": "Key features",
+    "relatedProjects": "Related projects",
+    "otherSolutions": "Other solutions",
+    "linkLabel": "View solution",
+    "viewAll": "View all solutions",
+    "systemsTitle": "{groups} system groups, {count} systems",
+    "systemsIntro": "Depending on the scale and use of the building, Megatrend designs, delivers and maintains each of the systems below.",
+    "pmsLabel": "PMS link",
+    "pmsNote": "PMS link: the system connects to the hotel property management software.",
+    "heroTitle": "ELV systems, from core infrastructure to the guest experience",
+    "heroLead": "Megatrend designs, delivers and maintains the complete set of extra-low-voltage systems, in 4 clear groups, for hotels, resorts, high-rise buildings and premium projects.",
+    "heroPrimary": "Discuss your project",
+    "heroSecondary": "See the systems",
+    "heroSystemsLabel": "Jump to each ELV system",
+    "capability": {
+      "consult": { "title": "Consult", "text": "Define the requirements and the right solution for the building." },
+      "design": { "title": "Design", "text": "From concept design to construction drawings and tender documents." },
+      "deploy": { "title": "Deliver", "text": "Supply, installation, configuration and acceptance." },
+      "maintain": { "title": "Maintain", "text": "Scheduled maintenance, incident response and operating support." }
+    },
+    "listTitle": "Solutions by area",
+    "listIntro": "Want to go deeper on one area? Each solution below has its own page.",
+    "ctaTitle": "Which systems does your building need?",
+    "ctaText": "Tell us the scale and requirements, and Megatrend will propose the right systems and scope."
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Four services, one point of contact",
+    "lead": "From the first drawing to day-to-day operation, clients work with a single team.",
+    "metaDescription": "Megatrend services: ICT and ELV design consultancy, equipment supply, installation and integration, maintenance and warranty, and Smart Home design and build.",
+    "linkLabel": "Learn more",
+    "highlightsTitle": "What it covers",
+    "approachesTitle": "Consulting directions",
+    "scopeTitle": "Scope of work",
+    "processTitle": "How we work",
+    "otherServices": "Other services",
+    "galleryLabel": "Site photos"
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Projects",
+    "lead": "A selection of the hotels, resorts and residences we have worked on across Vietnam.",
+    "metaDescription": "Selected projects delivered by Megatrend.",
+    "client": "Brand or owner",
+    "location": "Location",
+    "year": "Period",
+    "segment": "Segment",
+    "solutionsUsed": "Solutions used",
+    "gallery": "Gallery",
+    "facts": "Project facts",
+    "linkLabel": "View project",
+    "viewAll": "View all projects"
+  },
+  "segments": {
+    "eyebrow": "Segments",
+    "title": "Segments we serve",
+    "lead": "We focus on properties where technology shapes the guest and resident experience.",
+    "metaDescription": "The industries Megatrend serves and the solutions for each.",
+    "relatedSolutions": "Solutions for this segment",
+    "relatedProjects": "Projects in this segment",
+    "linkLabel": "Explore segment"
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "News",
+    "lead": "Project milestones and updates from the Megatrend team.",
+    "metaDescription": "News and updates from Megatrend.",
+    "published": "Published",
+    "tags": "Tags",
+    "backToList": "All news",
+    "empty": "No news yet.",
+    "linkLabel": "Read article"
+  },
+  "jobs": {
+    "eyebrow": "Careers",
+    "title": "Jobs",
+    "lead": "Join a team that delivers technology for international hotel brands and premium developments.",
+    "metaDescription": "Open positions at Megatrend.",
+    "location": "Location",
+    "type": "Type",
+    "postedAt": "Posted",
+    "apply": "Apply by email",
+    "applySubject": "Application: {title}",
+    "applyNote": "Send your CV and a short introduction to {email}.",
+    "openings": "Open positions",
+    "empty": "There are no open positions right now.",
+    "linkLabel": "View position"
+  },
+  "home": {
+    "metaTitle": "{name} | ICT, ELV, Smart Building and Hospitality Technology",
+    "heroPrimary": "Contact us",
+    "heroSecondary": "Explore solutions",
+    "clientsLabel": "Projects delivered for hotels of these groups",
+    "capabilityEyebrow": "Capability",
+    "aboutButton": "About us",
+    "contactButton": "Contact us",
+    "projectsEyebrow": "Featured projects",
+    "projectsTitle": "Trusted by leading hotel brands",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Four services, one point of contact",
+    "servicesIntro": "From the first drawing to day-to-day operation, clients work with a single team.",
+    "systemsEyebrow": "ELV systems",
+    "systemsTitle": "Four groups of ELV systems",
+    "systemsIntro": "Depending on the scale and use of the building, Megatrend designs, delivers and maintains the systems below.",
+    "systemsLink": "See each system in detail",
+    "fieldworkEyebrow": "On site",
+    "fieldworkTitle": "Our work in the field",
+    "fieldworkMore": "See more site photos",
+    "ctaButton": "Get in touch",
+    "slideshow": {
+      "region": "Background photos",
+      "pause": "Pause photo rotation",
+      "play": "Play photo rotation",
+      "goToSlide": "Show photo {number}"
+    }
+  },
+  "about": {
+    "eyebrow": "Company",
+    "valuesTitle": "What we value",
+    "statsTitle": "In numbers",
+    "statsNote": "From our 2026 company profile and website.",
+    "fieldworkTitle": "Our work in the field"
+  },
+  "partners": {
+    "eyebrow": "Company",
+    "title": "Clients & partners",
+    "lead": "The international hotel groups we serve and the technology vendors we work with.",
+    "metaDescription": "Hotel groups Megatrend serves and the technology vendors it works with.",
+    "clientsTitle": "Clients",
+    "clientsIntro": "Trusted by 5-star hotel and resort groups across Vietnam.",
+    "partnersTitle": "Technology partners",
+    "partnersIntro": "The vendors whose technology we design with and deliver.",
+    "logoAlt": "{name} logo",
+    "visit": "Visit {name} website",
+    "trademarkNote": "All logos are trademarks of their respective owners."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contact us",
+    "lead": "Tell us about your project and our team will get back to you.",
+    "metaDescription": "Contact Megatrend about your project.",
+    "detailsTitle": "Contact details",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "prepare": {
+      "title": "Helpful to include",
+      "intro": "So we can propose the right scope and solution from the first conversation.",
+      "site": { "title": "The building", "text": "Type (hotel, resort, tower, home), location and size." },
+      "stage": { "title": "The stage", "text": "Concept, design, construction or already in operation." },
+      "systems": { "title": "Systems of interest", "text": "ICT, ELV or Smart Home, and the specific systems." },
+      "timeline": { "title": "Timeline", "text": "Target start of works or opening date." }
+    }
+  },
+  "form": {
+    "title": "Send us a message",
+    "intro": "All fields are required.",
+    "name": "Full name",
+    "company": "Company",
+    "email": "Work email",
+    "phone": "Phone",
+    "message": "How can we help?",
+    "honeypot": "Leave this field empty",
+    "consent": "I agree to the <link>privacy policy</link> and to Megatrend contacting me about this enquiry.",
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "successTitle": "Thank you, your message has been sent.",
+    "successText": "Our team will get back to you shortly.",
+    "errors": {
+      "nameRequired": "Please enter your full name.",
+      "nameTooLong": "Name must be 100 characters or fewer.",
+      "nameInvalid": "Name must be on a single line.",
+      "companyRequired": "Please enter your company name.",
+      "companyTooLong": "Company name must be 120 characters or fewer.",
+      "companyInvalid": "Company name must be on a single line.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneInvalid": "Please enter a valid phone number (digits, spaces and + only).",
+      "messageTooShort": "Please write at least 10 characters.",
+      "messageTooLong": "Message must be 2,000 characters or fewer.",
+      "consentRequired": "Please accept the privacy policy to continue."
+    },
+    "submitErrors": {
+      "invalid": "Some fields need attention. Please check the form and try again.",
+      "rateLimited": "Too many messages from your connection. Please try again in a few minutes.",
+      "network": "We could not reach the server. Check your connection and try again.",
+      "generic": "Your message could not be sent. Please try again later or email us directly."
+    }
+  },
+  "legal": {
+    "reviewNotice": "Template: this page must be reviewed by legal counsel before the site goes live.",
+    "updated": "Last updated: {date}"
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "lead": "All pages on this website.",
+    "metaDescription": "A list of all pages on the Megatrend website.",
+    "mainPages": "Main pages",
+    "legalPages": "Legal"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has moved.",
+    "home": "Back to home"
+  }
+}
