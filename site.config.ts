@@ -24,7 +24,7 @@ export const siteConfig = {
   contact: {
     // No public email: visitors use the contact form, which delivers to CONTACT_TO_EMAIL.
     phone: "+84 236 730 8188",
-    address: "90/14/30 Trần Văn Ơn, Phường Tân Sơn Nhì, TP. Hồ Chí Minh",
+    address: "90/14/30 Trần Văn Ơn, P.Tân Sơn Nhì, TP HCM",
   },
   // No company profiles confirmed yet; add { key, href } entries and the footer column appears.
   social: [] as readonly { key: "linkedin" | "facebook" | "youtube"; href: string }[],
